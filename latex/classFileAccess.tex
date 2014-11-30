@@ -1,0 +1,132 @@
+\section{File\-Access Class Reference}
+\label{classFileAccess}\index{File\-Access@{File\-Access}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String {\bf get\-Record\-By\-I\-D} (String id)
+\item 
+String {\bf get\-Id\-From\-Rec} (String rec)
+\item 
+String {\bf get\-Name\-From\-Rec} (String rec)
+\item 
+int {\bf get\-Room\-D} (String rec)
+\item 
+int {\bf get\-Fridge\-D} (String rec)
+\item 
+int {\bf get\-Freezer\-D} (String rec)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int {\bf header\-L} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+fps
+\end{DoxyAuthor}
+A class that will access the \doxyref{Food}{p.}{classFood} information. 
+
+\subsection{Member Function Documentation}
+\index{File\-Access@{File\-Access}!get\-Freezer\-D@{get\-Freezer\-D}}
+\index{get\-Freezer\-D@{get\-Freezer\-D}!FileAccess@{File\-Access}}
+\subsubsection[{get\-Freezer\-D}]{\setlength{\rightskip}{0pt plus 5cm}int File\-Access.\-get\-Freezer\-D (
+\begin{DoxyParamCaption}
+\item[{String}]{rec}
+\end{DoxyParamCaption}
+)}\label{classFileAccess_a47c4d1d2f448a91fb9319c24afb18fd2}
+Calculates the \doxyref{Food}{p.}{classFood} use by date when stored in the freezer. 
+\begin{DoxyParams}{Parameters}
+{\em rec} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The \doxyref{Food}{p.}{classFood} use by date in the freezer. 
+\end{DoxyReturn}
+\index{File\-Access@{File\-Access}!get\-Fridge\-D@{get\-Fridge\-D}}
+\index{get\-Fridge\-D@{get\-Fridge\-D}!FileAccess@{File\-Access}}
+\subsubsection[{get\-Fridge\-D}]{\setlength{\rightskip}{0pt plus 5cm}int File\-Access.\-get\-Fridge\-D (
+\begin{DoxyParamCaption}
+\item[{String}]{rec}
+\end{DoxyParamCaption}
+)}\label{classFileAccess_afe3bbbe1d22a14ade7b5de959657a8f6}
+Calculates the \doxyref{Food}{p.}{classFood} use by date when stored in the fridge. 
+\begin{DoxyParams}{Parameters}
+{\em rec} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The \doxyref{Food}{p.}{classFood} use by date in the fridge. 
+\end{DoxyReturn}
+\index{File\-Access@{File\-Access}!get\-Id\-From\-Rec@{get\-Id\-From\-Rec}}
+\index{get\-Id\-From\-Rec@{get\-Id\-From\-Rec}!FileAccess@{File\-Access}}
+\subsubsection[{get\-Id\-From\-Rec}]{\setlength{\rightskip}{0pt plus 5cm}String File\-Access.\-get\-Id\-From\-Rec (
+\begin{DoxyParamCaption}
+\item[{String}]{rec}
+\end{DoxyParamCaption}
+)}\label{classFileAccess_ab41357d2a76513fb8a65a59287a95f32}
+Get's the I\-D from the record. 
+\begin{DoxyParams}{Parameters}
+{\em rec} & The current record. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the I\-D. 
+\end{DoxyReturn}
+\index{File\-Access@{File\-Access}!get\-Name\-From\-Rec@{get\-Name\-From\-Rec}}
+\index{get\-Name\-From\-Rec@{get\-Name\-From\-Rec}!FileAccess@{File\-Access}}
+\subsubsection[{get\-Name\-From\-Rec}]{\setlength{\rightskip}{0pt plus 5cm}String File\-Access.\-get\-Name\-From\-Rec (
+\begin{DoxyParamCaption}
+\item[{String}]{rec}
+\end{DoxyParamCaption}
+)}\label{classFileAccess_a69de4811d2a498391dd882314edda3db}
+Get's the name from the given record. 
+\begin{DoxyParams}{Parameters}
+{\em rec} & The record wanting to be returned. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The name of the record. 
+\end{DoxyReturn}
+\index{File\-Access@{File\-Access}!get\-Record\-By\-I\-D@{get\-Record\-By\-I\-D}}
+\index{get\-Record\-By\-I\-D@{get\-Record\-By\-I\-D}!FileAccess@{File\-Access}}
+\subsubsection[{get\-Record\-By\-I\-D}]{\setlength{\rightskip}{0pt plus 5cm}String File\-Access.\-get\-Record\-By\-I\-D (
+\begin{DoxyParamCaption}
+\item[{String}]{id}
+\end{DoxyParamCaption}
+)}\label{classFileAccess_ac440d7b10b3acdf8021ce5d09eb4e7b2}
+Finds the record in the raf with a unique I\-D. 
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the Record found. 
+\end{DoxyReturn}
+\index{File\-Access@{File\-Access}!get\-Room\-D@{get\-Room\-D}}
+\index{get\-Room\-D@{get\-Room\-D}!FileAccess@{File\-Access}}
+\subsubsection[{get\-Room\-D}]{\setlength{\rightskip}{0pt plus 5cm}int File\-Access.\-get\-Room\-D (
+\begin{DoxyParamCaption}
+\item[{String}]{rec}
+\end{DoxyParamCaption}
+)}\label{classFileAccess_afd3ec8bb09ed4077ba63dcd8c98cbacf}
+Calculates the \doxyref{Food}{p.}{classFood} use by date when stored at room temperature. 
+\begin{DoxyParams}{Parameters}
+{\em rec} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The \doxyref{Food}{p.}{classFood} use by date at room temperature. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\index{File\-Access@{File\-Access}!header\-L@{header\-L}}
+\index{header\-L@{header\-L}!FileAccess@{File\-Access}}
+\subsubsection[{header\-L}]{\setlength{\rightskip}{0pt plus 5cm}int File\-Access.\-header\-L = 0}\label{classFileAccess_a434aaa0e9b6e6d5b6de513d7bacd6d62}
+Using an .raf file storing \doxyref{Food}{p.}{classFood} this class will find a food and return information about it's use by date. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+File\-Access.\-java\end{DoxyCompactItemize}

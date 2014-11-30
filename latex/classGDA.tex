@@ -1,0 +1,96 @@
+\section{G\-D\-A Class Reference}
+\label{classGDA}\index{G\-D\-A@{G\-D\-A}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf G\-D\-A} ({\bf Person} p)
+\item 
+String {\bf to\-String} ()
+\item 
+double {\bf find\-T\-D\-E\-E} ({\bf Person} p)
+\item 
+double {\bf to\-Grams} (double x)
+\item 
+double {\bf to\-Kcal} (double x)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+ruaraidh
+\end{DoxyAuthor}
+A representation of what nutrients a user needs each day. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{G\-D\-A@{G\-D\-A}!G\-D\-A@{G\-D\-A}}
+\index{G\-D\-A@{G\-D\-A}!GDA@{G\-D\-A}}
+\subsubsection[{G\-D\-A}]{\setlength{\rightskip}{0pt plus 5cm}G\-D\-A.\-G\-D\-A (
+\begin{DoxyParamCaption}
+\item[{{\bf Person}}]{p}
+\end{DoxyParamCaption}
+)}\label{classGDA_adf1862235c6268d76ef796a123b74dcd}
+Constructs the \doxyref{G\-D\-A}{p.}{classGDA} model for a user. Calculates each as a ratio of calories and converts to grams. 
+\begin{DoxyParams}{Parameters}
+{\em p} & takes in a user. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{G\-D\-A@{G\-D\-A}!find\-T\-D\-E\-E@{find\-T\-D\-E\-E}}
+\index{find\-T\-D\-E\-E@{find\-T\-D\-E\-E}!GDA@{G\-D\-A}}
+\subsubsection[{find\-T\-D\-E\-E}]{\setlength{\rightskip}{0pt plus 5cm}double G\-D\-A.\-find\-T\-D\-E\-E (
+\begin{DoxyParamCaption}
+\item[{{\bf Person}}]{p}
+\end{DoxyParamCaption}
+)}\label{classGDA_aed24793d33887c945f0e74316a3df0ee}
+Calculates the user's Body Mass Ration (B.\-M.\-R). This is a calculation that works with attributes from \doxyref{Person}{p.}{classPerson} class. After B.\-M.\-R is calculate then depending on the user's exercise level the calories consumed in a day is calculated. 
+\begin{DoxyParams}{Parameters}
+{\em p} & Takes in a person. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The amount of calories a \doxyref{Person}{p.}{classPerson} consumes in a day. 
+\end{DoxyReturn}
+\index{G\-D\-A@{G\-D\-A}!to\-Grams@{to\-Grams}}
+\index{to\-Grams@{to\-Grams}!GDA@{G\-D\-A}}
+\subsubsection[{to\-Grams}]{\setlength{\rightskip}{0pt plus 5cm}double G\-D\-A.\-to\-Grams (
+\begin{DoxyParamCaption}
+\item[{double}]{x}
+\end{DoxyParamCaption}
+)}\label{classGDA_a5da8d98872b0ec5203ebd02dda499737}
+Formats the ratios from calories to convert them to grams then round them to 2 decimal places. 
+\begin{DoxyParams}{Parameters}
+{\em x} & The ratio of calories that needs to be formatted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The formatted version. 
+\end{DoxyReturn}
+\index{G\-D\-A@{G\-D\-A}!to\-Kcal@{to\-Kcal}}
+\index{to\-Kcal@{to\-Kcal}!GDA@{G\-D\-A}}
+\subsubsection[{to\-Kcal}]{\setlength{\rightskip}{0pt plus 5cm}double G\-D\-A.\-to\-Kcal (
+\begin{DoxyParamCaption}
+\item[{double}]{x}
+\end{DoxyParamCaption}
+)}\label{classGDA_a9d4c3b5b54cc59946afeb09363ffdf36}
+Formats the calories to round to 2 decimal places. 
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The rounded result. 
+\end{DoxyReturn}
+\index{G\-D\-A@{G\-D\-A}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!GDA@{G\-D\-A}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}String G\-D\-A.\-to\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classGDA_ab19d0f2a437eb29ed6e74b1f7079c5e7}
+Represents the \doxyref{G\-D\-A}{p.}{classGDA} as a string. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+G\-D\-A.\-java\end{DoxyCompactItemize}

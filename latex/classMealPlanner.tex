@@ -1,0 +1,128 @@
+\section{Meal\-Planner Class Reference}
+\label{classMealPlanner}\index{Meal\-Planner@{Meal\-Planner}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Meal\-Planner} ()
+\item 
+void {\bf add} ({\bf Meal} name, String day, String time)
+\item 
+String {\bf to\-String} ()
+\item 
+int {\bf write\-To\-Day} (String day)
+\item 
+int {\bf write\-To\-Time} (String time)
+\item 
+String {\bf get\-Time} (int i)
+\item 
+String {\bf get\-Day} (int i)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+ruaraidh
+\end{DoxyAuthor}
+Creates an empty 2\-D grid to allow a weekly meal plan to be created. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Meal\-Planner@{Meal\-Planner}!Meal\-Planner@{Meal\-Planner}}
+\index{Meal\-Planner@{Meal\-Planner}!MealPlanner@{Meal\-Planner}}
+\subsubsection[{Meal\-Planner}]{\setlength{\rightskip}{0pt plus 5cm}Meal\-Planner.\-Meal\-Planner (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classMealPlanner_a2e50dafd67bbd3ca0408f24a989a7094}
+Constructs a default empty planner. 
+
+\subsection{Member Function Documentation}
+\index{Meal\-Planner@{Meal\-Planner}!add@{add}}
+\index{add@{add}!MealPlanner@{Meal\-Planner}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}void Meal\-Planner.\-add (
+\begin{DoxyParamCaption}
+\item[{{\bf Meal}}]{name, }
+\item[{String}]{day, }
+\item[{String}]{time}
+\end{DoxyParamCaption}
+)}\label{classMealPlanner_a9fdc981456b039111af412bed77d4feb}
+Allows a \doxyref{Meal}{p.}{classMeal} to be added. 
+\begin{DoxyParams}{Parameters}
+{\em name} & The \doxyref{Meal}{p.}{classMeal} name. \\
+\hline
+{\em day} & The day of the week it will be added to. \\
+\hline
+{\em time} & The time of the day to add the meal to. \\
+\hline
+\end{DoxyParams}
+\index{Meal\-Planner@{Meal\-Planner}!get\-Day@{get\-Day}}
+\index{get\-Day@{get\-Day}!MealPlanner@{Meal\-Planner}}
+\subsubsection[{get\-Day}]{\setlength{\rightskip}{0pt plus 5cm}String Meal\-Planner.\-get\-Day (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}\label{classMealPlanner_ab39be9f47be145dfa203b28f9b8047d9}
+Since the grid will have it's indexes as integers there needs to be a function so that when the grid is printed as a string it can convert the integer back to a string. 
+\begin{DoxyParams}{Parameters}
+{\em i} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The day of the week the meal is located on the planner. 
+\end{DoxyReturn}
+\index{Meal\-Planner@{Meal\-Planner}!get\-Time@{get\-Time}}
+\index{get\-Time@{get\-Time}!MealPlanner@{Meal\-Planner}}
+\subsubsection[{get\-Time}]{\setlength{\rightskip}{0pt plus 5cm}String Meal\-Planner.\-get\-Time (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}\label{classMealPlanner_a307491f890ba2095bfa97c807d79fc92}
+Since the grid will have it's indexes as integers there needs to be a function so that when the grid is printed as a string it can convert the integer back to a string. 
+\begin{DoxyParams}{Parameters}
+{\em i} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The time of day the meal is located on the planner. 
+\end{DoxyReturn}
+\index{Meal\-Planner@{Meal\-Planner}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!MealPlanner@{Meal\-Planner}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}String Meal\-Planner.\-to\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classMealPlanner_a61d8d258f8be847ecefc766f4fc8b7a1}
+Represents the \doxyref{Meal}{p.}{classMeal} plan as a string. \index{Meal\-Planner@{Meal\-Planner}!write\-To\-Day@{write\-To\-Day}}
+\index{write\-To\-Day@{write\-To\-Day}!MealPlanner@{Meal\-Planner}}
+\subsubsection[{write\-To\-Day}]{\setlength{\rightskip}{0pt plus 5cm}int Meal\-Planner.\-write\-To\-Day (
+\begin{DoxyParamCaption}
+\item[{String}]{day}
+\end{DoxyParamCaption}
+)}\label{classMealPlanner_acda94709c25f774758145e39d7398f9e}
+The day will be passed in as a String but in order to write it to the grid it needs to be an integer. This function will convert the string to the correct number. 
+\begin{DoxyParams}{Parameters}
+{\em day} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The index of the grid to add. 
+\end{DoxyReturn}
+\index{Meal\-Planner@{Meal\-Planner}!write\-To\-Time@{write\-To\-Time}}
+\index{write\-To\-Time@{write\-To\-Time}!MealPlanner@{Meal\-Planner}}
+\subsubsection[{write\-To\-Time}]{\setlength{\rightskip}{0pt plus 5cm}int Meal\-Planner.\-write\-To\-Time (
+\begin{DoxyParamCaption}
+\item[{String}]{time}
+\end{DoxyParamCaption}
+)}\label{classMealPlanner_a2f7515f61af7fd85511ca1e36bd32cd0}
+The time will be passed in as a String but in order to write it to the grid it needs to be an integer. This function will convert the string to the correct number. 
+\begin{DoxyParams}{Parameters}
+{\em time} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The index of the grid to add. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Meal\-Planner.\-java\end{DoxyCompactItemize}

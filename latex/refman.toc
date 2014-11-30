@@ -1,0 +1,76 @@
+\contentsline {chapter}{\numberline {1}Class Index}{1}
+\contentsline {section}{\numberline {1.1}Class List}{1}
+\contentsline {chapter}{\numberline {2}Class Documentation}{3}
+\contentsline {section}{\numberline {2.1}Date\discretionary {-}{}{}Man Class Reference}{3}
+\contentsline {subsection}{\numberline {2.1.1}Detailed Description}{3}
+\contentsline {subsection}{\numberline {2.1.2}Member Function Documentation}{3}
+\contentsline {subsubsection}{\numberline {2.1.2.1}get\discretionary {-}{}{}Exp\discretionary {-}{}{}Date}{3}
+\contentsline {subsubsection}{\numberline {2.1.2.2}get\discretionary {-}{}{}Exp\discretionary {-}{}{}Date}{3}
+\contentsline {section}{\numberline {2.2}File\discretionary {-}{}{}Access Class Reference}{4}
+\contentsline {subsection}{\numberline {2.2.1}Detailed Description}{4}
+\contentsline {subsection}{\numberline {2.2.2}Member Function Documentation}{4}
+\contentsline {subsubsection}{\numberline {2.2.2.1}get\discretionary {-}{}{}Freezer\discretionary {-}{}{}D}{4}
+\contentsline {subsubsection}{\numberline {2.2.2.2}get\discretionary {-}{}{}Fridge\discretionary {-}{}{}D}{4}
+\contentsline {subsubsection}{\numberline {2.2.2.3}get\discretionary {-}{}{}Id\discretionary {-}{}{}From\discretionary {-}{}{}Rec}{5}
+\contentsline {subsubsection}{\numberline {2.2.2.4}get\discretionary {-}{}{}Name\discretionary {-}{}{}From\discretionary {-}{}{}Rec}{5}
+\contentsline {subsubsection}{\numberline {2.2.2.5}get\discretionary {-}{}{}Record\discretionary {-}{}{}By\discretionary {-}{}{}I\discretionary {-}{}{}D}{5}
+\contentsline {subsubsection}{\numberline {2.2.2.6}get\discretionary {-}{}{}Room\discretionary {-}{}{}D}{5}
+\contentsline {subsection}{\numberline {2.2.3}Member Data Documentation}{6}
+\contentsline {subsubsection}{\numberline {2.2.3.1}header\discretionary {-}{}{}L}{6}
+\contentsline {section}{\numberline {2.3}Food Class Reference}{6}
+\contentsline {subsection}{\numberline {2.3.1}Detailed Description}{6}
+\contentsline {subsection}{\numberline {2.3.2}Constructor \& Destructor Documentation}{6}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Food}{6}
+\contentsline {subsection}{\numberline {2.3.3}Member Function Documentation}{6}
+\contentsline {subsubsection}{\numberline {2.3.3.1}get\discretionary {-}{}{}Name}{6}
+\contentsline {subsubsection}{\numberline {2.3.3.2}to\discretionary {-}{}{}String}{7}
+\contentsline {section}{\numberline {2.4}G\discretionary {-}{}{}D\discretionary {-}{}{}A Class Reference}{7}
+\contentsline {subsection}{\numberline {2.4.1}Detailed Description}{7}
+\contentsline {subsection}{\numberline {2.4.2}Constructor \& Destructor Documentation}{7}
+\contentsline {subsubsection}{\numberline {2.4.2.1}G\discretionary {-}{}{}D\discretionary {-}{}{}A}{7}
+\contentsline {subsection}{\numberline {2.4.3}Member Function Documentation}{7}
+\contentsline {subsubsection}{\numberline {2.4.3.1}find\discretionary {-}{}{}T\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}E}{7}
+\contentsline {subsubsection}{\numberline {2.4.3.2}to\discretionary {-}{}{}Grams}{8}
+\contentsline {subsubsection}{\numberline {2.4.3.3}to\discretionary {-}{}{}Kcal}{8}
+\contentsline {subsubsection}{\numberline {2.4.3.4}to\discretionary {-}{}{}String}{8}
+\contentsline {section}{\numberline {2.5}Main Class Reference}{8}
+\contentsline {subsection}{\numberline {2.5.1}Detailed Description}{8}
+\contentsline {subsection}{\numberline {2.5.2}Member Function Documentation}{9}
+\contentsline {subsubsection}{\numberline {2.5.2.1}main}{9}
+\contentsline {section}{\numberline {2.6}Meal Class Reference}{10}
+\contentsline {subsection}{\numberline {2.6.1}Detailed Description}{10}
+\contentsline {subsection}{\numberline {2.6.2}Constructor \& Destructor Documentation}{10}
+\contentsline {subsubsection}{\numberline {2.6.2.1}Meal}{10}
+\contentsline {subsection}{\numberline {2.6.3}Member Function Documentation}{10}
+\contentsline {subsubsection}{\numberline {2.6.3.1}add}{10}
+\contentsline {subsubsection}{\numberline {2.6.3.2}get\discretionary {-}{}{}Name}{10}
+\contentsline {subsubsection}{\numberline {2.6.3.3}to\discretionary {-}{}{}String}{11}
+\contentsline {section}{\numberline {2.7}Meal\discretionary {-}{}{}Planner Class Reference}{11}
+\contentsline {subsection}{\numberline {2.7.1}Detailed Description}{11}
+\contentsline {subsection}{\numberline {2.7.2}Constructor \& Destructor Documentation}{11}
+\contentsline {subsubsection}{\numberline {2.7.2.1}Meal\discretionary {-}{}{}Planner}{11}
+\contentsline {subsection}{\numberline {2.7.3}Member Function Documentation}{11}
+\contentsline {subsubsection}{\numberline {2.7.3.1}add}{11}
+\contentsline {subsubsection}{\numberline {2.7.3.2}get\discretionary {-}{}{}Day}{11}
+\contentsline {subsubsection}{\numberline {2.7.3.3}get\discretionary {-}{}{}Time}{12}
+\contentsline {subsubsection}{\numberline {2.7.3.4}to\discretionary {-}{}{}String}{12}
+\contentsline {subsubsection}{\numberline {2.7.3.5}write\discretionary {-}{}{}To\discretionary {-}{}{}Day}{12}
+\contentsline {subsubsection}{\numberline {2.7.3.6}write\discretionary {-}{}{}To\discretionary {-}{}{}Time}{12}
+\contentsline {section}{\numberline {2.8}Person Class Reference}{13}
+\contentsline {subsection}{\numberline {2.8.1}Detailed Description}{13}
+\contentsline {subsection}{\numberline {2.8.2}Constructor \& Destructor Documentation}{13}
+\contentsline {subsubsection}{\numberline {2.8.2.1}Person}{13}
+\contentsline {subsection}{\numberline {2.8.3}Member Function Documentation}{13}
+\contentsline {subsubsection}{\numberline {2.8.3.1}get\discretionary {-}{}{}Age}{13}
+\contentsline {subsubsection}{\numberline {2.8.3.2}get\discretionary {-}{}{}Exercise}{14}
+\contentsline {subsubsection}{\numberline {2.8.3.3}get\discretionary {-}{}{}Gender}{14}
+\contentsline {subsubsection}{\numberline {2.8.3.4}get\discretionary {-}{}{}Height}{14}
+\contentsline {subsubsection}{\numberline {2.8.3.5}get\discretionary {-}{}{}Name}{14}
+\contentsline {subsubsection}{\numberline {2.8.3.6}get\discretionary {-}{}{}Weight}{14}
+\contentsline {subsubsection}{\numberline {2.8.3.7}set\discretionary {-}{}{}Age}{14}
+\contentsline {subsubsection}{\numberline {2.8.3.8}set\discretionary {-}{}{}Exercise}{14}
+\contentsline {subsubsection}{\numberline {2.8.3.9}set\discretionary {-}{}{}Gender}{15}
+\contentsline {subsubsection}{\numberline {2.8.3.10}set\discretionary {-}{}{}Height}{15}
+\contentsline {subsubsection}{\numberline {2.8.3.11}set\discretionary {-}{}{}Name}{15}
+\contentsline {subsubsection}{\numberline {2.8.3.12}set\discretionary {-}{}{}Weight}{15}
+\contentsline {subsubsection}{\numberline {2.8.3.13}to\discretionary {-}{}{}String}{15}
